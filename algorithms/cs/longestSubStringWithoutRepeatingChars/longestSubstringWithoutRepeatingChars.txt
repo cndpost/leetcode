@@ -1,0 +1,69 @@
+// problem src: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+
+// Solutions . This is a brute force solution. May be not an optimal one.
+
+public class Solution {
+    public bool HasDup(string s) {
+        try {
+        int L = s.Length;
+        for (int i=0; i< L;i++) {
+            char a = s[i];
+            for (int j=i+1; j< L; j++)
+             if (a == s[j]) {
+                return true;
+             }
+        }
+        return false;
+        } catch (Exception ex){
+            Console.WriteLine(ex.Message);
+            return false;
+        }
+    }
+    public int LengthOfLongestSubstring(string s) {
+        try {
+        if (s.Length ==0)
+        return 0;
+        if (s.Length == 1)
+          return 1;
+        int L = s.Length;
+        List<string> T = new List<string>();
+        
+        for (int i=0;i<L;i++) {
+            for (int j=i; j< L;j++){
+                  Console.WriteLine("i,j, sub = {0}, {1}, {2}",i,j, s.Substring(i,j-i));
+                T.Add(s.Substring(i,j-i));
+            }
+        }
+        int TL = T.Count;
+        int maxL=1;
+        for (int i=0;i<TL;i++){
+             Console.WriteLine("i = {0}",i);
+            if(HasDup(T[i]))
+             continue;
+            if (maxL < T[i].Length)
+              maxL = T[i].Length;
+        }
+        return maxL;
+        } catch (Exception ex){
+            Console.WriteLine(ex.Message);
+            return 0;
+        }
+/*
+
+        string[] SS = s.Split(s[0]);
+        int retV = 0;
+        L = SS.Length;
+        if (L>=1) {
+        for (int i=0; i< L; i++){
+            int ret = LengthOfLongestSubstring(SS[i]);
+            if (retV < ret)
+              retV = ret;
+        }
+        return retV+1;
+     }
+      return 0;
+      */
+    }
+
+    
+}
