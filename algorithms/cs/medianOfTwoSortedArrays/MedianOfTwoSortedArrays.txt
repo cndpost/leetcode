@@ -1,0 +1,168 @@
+// problem description: https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+// Solutions
+
+// Google has following solution results
+/*
+
+The O(log (n) ) algorithm to find the median of two sorted integer arrays involves a binary search on the shorter 
+array to find the optimal partition points \(i\) and \(j\) in the two arrays \(A\) and \(B\). 
+
+The optimal partition 
+satisfies the condition \(\max (A[i-1],B[j-1])\le \min (A[i],B[j])\), ensuring all elements in the combined left 
+partition are less than or equal to all elements in the right partition. The total number of elements \(N\) 
+determines how the median is calculated: if \(N\) is odd, the median is \(\max \mathbf{(A[i-1],B[j-1])}\), 
+and if \(N\) is even, the median is the average of the two middle elements, 
+\(\mathbf{(}\max \mathbf{(A[i-1],B[j-1])+}\min \mathbf{(A[i],B[j]))/2}\). 
+
+Step 1: Understand the Problem and Goal 
+The goal is to find the median of two sorted arrays, \(A\) and \(B\), of lengths \(n_{1}\) and \(n_{2}\), respectively,
+ in \(O(\log (\min (n_{1},n_{2})))\) time complexity. The total number of elements is \(N=n_{1}+n_{2}\). 
+ The algorithm relies on finding the perfect partition points in both arrays such that combining the left 
+ parts and right parts satisfies the median property. 
+ 
+ Step 2: Define Partition Criteria We aim to partition 
+ the combined set into two halves of roughly equal size, \(\lfloor (n_{1}+n_{2}+1)/2\rfloor \) elements in 
+ the left half. We search for a partition index \(i\) in array \(A\) (where \(0\le i\le n_{1}\)) and a 
+ corresponding index \(j\) in array \(B\) (where \(j\) is calculated to satisfy the half-size condition).The 
+ condition for the correct partition is:\(\max (A[i-1],B[j-1])\le \min (A[i],B[j])\)We use a binary search 
+ approach on the shorter array to find this specific \(i\). 
+ 
+ Step 3: Implement Binary Search Perform binary 
+ search on the shorter array (let's assume array \(A\) is shorter). Initialize low = 0, high = n1.In each 
+ iteration:Calculate \(i=\lfloor (\text{low}+\text{high})/2\rfloor \).Calculate \(j=\lfloor (n_{1}+n_{2}+1)/2\rfloor -i\).
+ Check partition conditions (handling edge cases where \(i=0,i=n_{1},j=0,j=n_{2}\)):If \(A[i-1]>B[j]\), 
+ it means \(i\) is too large (too many elements from \(A\) in the left partition), so high = i - 1.If \(B[j-1]>A[i]\),
+ it means \(i\) is too small, so low = i + 1.If the condition \(\max (A[i-1],B[j-1])\le \min (A[i],B[j])\) is met,
+ the optimal partition is found. 
+ 
+ Step 4: Calculate the Median Once the optimal \(i\) and \(j\) are found: 
+ If \(N\) is odd, the median is the maximum value of the left half: \(\max (A[i-1],B[j-1])\).If \(N\) is even, 
+ the median is the average of the maximum of the left half and the minimum of the right half: 
+ \((\max (A[i-1],B[j-1])+\min (A[i],B[j]))/2\). 
+
+*/
+
+public class Solution {
+    /* following version takes O(nxn) time and does not meet requirements 
+    public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
+        int L1 = nums1.Length;
+        int L2 = nums2.Length;
+        int L3 = L1+L2;
+        int[] nums3 = new int[2000];
+        for (int i=0; i<L1;) {
+            for (int j=0; j<L2;) {
+                int k = i+j;
+                if (nums1[i] <= nums2[j]) {
+                    nums3[k] = nums1[i];
+                    i++;
+                }else {
+                    nums3[k] = nums2[j];
+                    j++;
+                }
+            }
+        }
+        int M = L3 /2;
+        int R = L3 % 2;
+        if (R == 1)
+         return 1.0*nums3[M+1];
+         else 
+         return (nums3[M]+nums3[M+1] )*0.5;
+    }
+
+    */
+
+     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
+
+        int L1 = nums1.Length;
+        int L2 = nums2.Length;
+        int j=0;
+        if (L1 > L2)
+          return FindMedianSortedArrays(nums2, nums1);
+
+        bool Odd = true;
+        if ( (L1+L2) %2 == 0) Odd = false;
+
+ //handling non over lapping cases
+         // num2 far higher than all num1
+        if (nums1[L1-1] <= nums2[0])
+        {
+             j = (L2+L1) / 2 - L1;
+            if (Odd) {
+             
+              return nums2[j];
+            }else {
+                if (j>1)
+                return 0.5*(nums2[j-1]+nums2[j]);
+                else 
+                return 0.5*(nums1[L1-1]+nums2[0]);
+            }
+         
+        };
+
+       // num1 far higher than all numw2
+        if (nums2[L2-1] <= nums1[0])
+        {
+            j = (L2+L1) / 2 - L1;
+            if ((L1+L2) %2  == 0) {
+              
+              return nums2[j];
+            }else 
+              return nums2[j+1];
+        };
+
+        //over lapping cases
+        int low =0, high = L1;
+    label1:
+   
+        int i = (low+high) /2;
+        if (i==0) { 
+            if (L1 == 0) {
+                if (L2 % 2 == 1)
+                  return nums2[L2/2];
+                else 
+                  return 0.5*(nums2[L2/2 -1]+nums2[L2/2]);
+            } else {
+            //else L1 == 1
+            if (L2 % 2 == 0)
+                  return Math.Max(nums1[0],nums2[L2/2-1]);
+                else 
+                  return 0.5*(nums2[L2/2 -1]+nums1[0]);
+            }
+        }
+
+        j = (L1+L2)/2 -i;
+        if (j==0) return nums1[(L1+1)/2];
+
+         if ((i>=1) && (j>=1)) {
+            //if (Math.Max(nums1[i-1], nums2[j-1]) <= Math.Min(nums1[i],nums2[j])) {
+             if ( (nums1[i-1] < nums2[j]) && (nums2[j-1] < nums1[i])) {
+             if ((L1+L2) %2  == 0) {  //even case
+              //return Math.Max(nums1[i-1], nums2[j-1]);
+              if (nums1[i-1] > nums2[j-1]) return nums1[i-1];
+              else
+               return nums2[j-1];
+            }else {   // odd case
+             // return 0.5*( Math.Max(nums1[i-1], nums2[j-1]) + Math.Min(nums1[i],nums2[j]));
+             double p= nums1[i-1];
+             if (p < nums2[j-1])  p = nums2[j-1];
+             double q = nums1[i];
+             if ( q < nums2[j]) q = nums2[j];
+              return 0.5*(p+q);
+            }
+          } else {  // continue binary search
+                if (nums1[i-1] > nums2[j])
+                  high = i-1;
+                if (nums2[j-1]>nums1[i])
+                  low=i+1;
+                    goto label1;
+          }
+        } else {
+            //either i=0 or j=0. should never be here
+               if (nums2[j-1]>nums1[i])
+                  low=i+1;
+               goto label1;
+        }
+     }
+
+}
