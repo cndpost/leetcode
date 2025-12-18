@@ -1,0 +1,4 @@
+Flattern the tree into nested list .
+Left to right in each level 
+Empty list represent an empty tree 
+
