@@ -1,0 +1,15 @@
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.AssemblyInfoInputs.cache
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.AssemblyInfo.cs
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.csproj.CoreCompileInputs.cache
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.sourcelink.json
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\bin\Debug\net8.0\VerifyTreeEquality.exe
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\bin\Debug\net8.0\VerifyTreeEquality.deps.json
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\bin\Debug\net8.0\VerifyTreeEquality.runtimeconfig.json
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\bin\Debug\net8.0\VerifyTreeEquality.dll
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\bin\Debug\net8.0\VerifyTreeEquality.pdb
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.dll
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\refint\VerifyTreeEquality.dll
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.pdb
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\VerifyTreeEquality.genruntimeconfig.cache
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\VerifyTreeEquality\obj\Debug\net8.0\ref\VerifyTreeEquality.dll

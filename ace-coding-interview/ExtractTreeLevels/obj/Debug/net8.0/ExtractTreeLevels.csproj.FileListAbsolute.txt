@@ -1,0 +1,15 @@
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\bin\Debug\net8.0\ExtractTreeLevels.exe
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\bin\Debug\net8.0\ExtractTreeLevels.deps.json
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\bin\Debug\net8.0\ExtractTreeLevels.runtimeconfig.json
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\bin\Debug\net8.0\ExtractTreeLevels.dll
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\bin\Debug\net8.0\ExtractTreeLevels.pdb
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.AssemblyInfoInputs.cache
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.AssemblyInfo.cs
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.csproj.CoreCompileInputs.cache
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.sourcelink.json
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.dll
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\refint\ExtractTreeLevels.dll
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.pdb
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ExtractTreeLevels.genruntimeconfig.cache
+C:\Users\JohnXu\source\repos\leetcode\ace-coding-interview\ExtractTreeLevels\obj\Debug\net8.0\ref\ExtractTreeLevels.dll

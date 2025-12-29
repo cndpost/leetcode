@@ -1,0 +1,21 @@
+//problem src:  https://leetcode.com/problems/two-sum/
+//solutin code:
+
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        //Dictionary<int,int> MatchedPair = new Dictionary <int, int>();
+        int L = nums.Length;
+        int[] Ret = new int[2];
+        for (int i=0; i<L; i++) {
+            for (int j=i+1; j< L; j++) {
+                if ( (nums[i]+nums[j]) == target ) {
+                   
+                    Ret[0] =i;
+                    Ret[1] = j;
+                    return Ret;
+                }
+            }
+        } 
+        return Ret;
+    }
+}
