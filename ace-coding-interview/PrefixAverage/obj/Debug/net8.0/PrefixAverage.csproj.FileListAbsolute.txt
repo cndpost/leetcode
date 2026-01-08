@@ -1,0 +1,14 @@
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.AssemblyInfoInputs.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.AssemblyInfo.cs
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.csproj.CoreCompileInputs.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\bin\Debug\net8.0\PrefixAverage.exe
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\bin\Debug\net8.0\PrefixAverage.deps.json
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\bin\Debug\net8.0\PrefixAverage.runtimeconfig.json
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\bin\Debug\net8.0\PrefixAverage.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\bin\Debug\net8.0\PrefixAverage.pdb
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\refint\PrefixAverage.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.pdb
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\PrefixAverage.genruntimeconfig.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\PrefixAverage\obj\Debug\net8.0\ref\PrefixAverage.dll

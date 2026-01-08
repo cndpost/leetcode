@@ -1,0 +1,14 @@
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.AssemblyInfoInputs.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.AssemblyInfo.cs
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.csproj.CoreCompileInputs.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\bin\Debug\net8.0\minPosBaseline.exe
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\bin\Debug\net8.0\minPosBaseline.deps.json
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\bin\Debug\net8.0\minPosBaseline.runtimeconfig.json
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\bin\Debug\net8.0\minPosBaseline.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\bin\Debug\net8.0\minPosBaseline.pdb
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\refint\minPosBaseline.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.pdb
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\minPosBaseline.genruntimeconfig.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\minPosBaseline\obj\Debug\net8.0\ref\minPosBaseline.dll

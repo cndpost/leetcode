@@ -1,0 +1,14 @@
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.AssemblyInfoInputs.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.AssemblyInfo.cs
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.csproj.CoreCompileInputs.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\bin\Debug\net8.0\totalWizard.exe
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\bin\Debug\net8.0\totalWizard.deps.json
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\bin\Debug\net8.0\totalWizard.runtimeconfig.json
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\bin\Debug\net8.0\totalWizard.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\bin\Debug\net8.0\totalWizard.pdb
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\refint\totalWizard.dll
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.pdb
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\totalWizard.genruntimeconfig.cache
+C:\Users\JohnXu\source\repos\ace-coding-interview\totalWizard\obj\Debug\net8.0\ref\totalWizard.dll
