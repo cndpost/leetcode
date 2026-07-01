@@ -1,3 +1,86 @@
+## Ignore build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Tt]emp/
+
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+## Ignore Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+## Ignore .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignore publish output
+publish/
+out/
+
+## Ignore test results
+TestResults/
+*.coverage
+*.coveragexml
+
+## Ignore cache
+*.cache
+*.db
+*.mdb
+
+## Ignore OS-specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+## Ignore logs
+*.log
+
+## Ignore temporary files
+*.tmp
+*.temp
+
+## Ignore IDE-specific
+.vscode/
+*.code-workspace
+
+## Ignore ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Ignore generated files
+*.generated.cs
+
+## Ignore publish profiles
+*.pubxml
+*.publishsettings
+
+## Ignore tooling
+tools/
+
+## other ignores
 .idea
 algorithms-java/out
 *.class
