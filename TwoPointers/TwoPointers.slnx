@@ -1,0 +1,16 @@
+<Solution>
+  <Project Path="BoatsToSavePeople/BoatsToSavePeople.csproj" />
+  <Project Path="ContainerWithMostWater/ContainerWithMostWater.csproj" />
+  <Project Path="KdiffPairInArray/KdiffPairInArray.csproj" />
+  <Project Path="MaxDistanceToClosestPerson/MaxDistanceToClosestPerson.csproj" />
+  <Project Path="MergeTwoSortedArray/MergeTwoSortedArray.csproj" />
+  <Project Path="MoveZerosToEnd/MoveZerosToEnd.csproj" />
+  <Project Path="OneDeletePalindromeCheck/OneDeletePalindromeCheck.csproj" />
+  <Project Path="PairWithTargetSum/PairWithTargetSum.csproj" />
+  <Project Path="RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.csproj" />
+  <Project Path="ReverseString/ReverseString.csproj" />
+  <Project Path="SmallestDifferencePair/SmallestDifferencePair.csproj" />
+  <Project Path="SortedSquaresOfArray/SortedSquaresOfArray.csproj" />
+  <Project Path="ThreeSum/ThreeSum.csproj" />
+  <Project Path="TrappingRainWater/TrappingRainWater.csproj" />
+</Solution>
