@@ -1,7 +1,16 @@
 <Solution>
+  <Project Path="CountAnagramSubstrings/CountAnagramSubstrings.csproj" />
   <Project Path="CountSubarraysWithProductBelowK/CountSubarraysWithProductBelowK.csproj" />
+  <Project Path="CountSubrraysWithExactKDistinct/CountSubrraysWithExactKDistinct.csproj" />
   <Project Path="KSizeSubarrayOfMaxSum/KSizeSubarrayOfMaxSum.csproj" />
+  <Project Path="LongestOnesWithKflips/LongestOnesWithKflips.csproj" />
+  <Project Path="LongestSubstringWithAtMostKDistinct/LongestSubstringWithAtMostKDistinct.csproj" />
+  <Project Path="LongestTurbulentSubarray/LongestTurbulentSubarray.csproj" />
   <Project Path="LongestUniqueCharsSubstring/LongestUniqueCharsSubstring.csproj" />
+  <Project Path="MinLengthSubArraySum/MinLengthSubArraySum.csproj" />
+  <Project Path="ShortestCoveringSubstring/ShortestCoveringSubstring.csproj" />
+  <Project Path="SlidingWindowMedian/SlidingWindowMedian.csproj" />
   <Project Path="SubstringPermuteCheck/SubstringPermuteCheck.csproj" />
   <Project Path="TwoTypeFruitHarvest/TwoTypeFruitHarvest.csproj" />
+  <Project Path="UniformSubstringAfterKreplacement/UniformSubstringAfterKreplacement.csproj" />
 </Solution>
