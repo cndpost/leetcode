@@ -1,7 +1,17 @@
 <Solution>
+  <Project Path="CheckIfLinkedListIsPalindrome/CheckIfLinkedListIsPalindrome.csproj" Id="7b2c8e71-1bf6-46cd-a010-e41e38c2f8dc" />
   <Project Path="CheckNumberHappyness/CheckNumberHappyness.csproj" Id="e99dc20f-b0c8-4880-8ac9-4c47459dc94b" />
   <Project Path="ComputeListCycleLength/ComputeListCycleLength.csproj" Id="cd28e383-068e-4909-961a-16b71a00b900" />
   <Project Path="DedectLinkedListCycle/DedectLinkedListCycle.csproj" />
+  <Project Path="DetectCircularJump/DetectCircularJump.csproj" Id="88dbf6e3-b8fb-482f-a1e9-06721cde804a" />
+  <Project Path="DetectRandomPointerLoop/DetectRandomPointerLoop.csproj" Id="b2df11e8-0cd5-404e-83fb-2504715ea576" />
+  <Project Path="DetermineDigitPowerLoopSize/DetermineDigitPowerLoopSize.csproj" Id="2d6ac964-8ff2-4083-8017-dc4c762ab4d5" />
   <Project Path="FindLinkedListCycleEntry/FindLinkedListCycleEntry.csproj" Id="42ab68b7-68a8-4e09-bd6d-fa6b9738dcea" />
+  <Project Path="LocateDuplicate2/LocateDuplicate2.csproj" Id="08c01a58-1a1c-4919-b538-c8969441550e" />
   <Project Path="LocateLinkedListMiddle/LocateLinkedListMiddle.csproj" />
+  <Project Path="LocateTheDuplicate/LocateTheDuplicate.csproj" Id="4018bfa7-931c-4976-8a47-558672838685" />
+  <Project Path="LongestZeroSumCycle/LongestZeroSumCycle.csproj" Id="e683c812-3b57-4321-9dd6-af5ec774080e" />
+  <Project Path="ReverseSecondHalfOfLinkedList/ReverseSecondHalfOfLinkedList.csproj" Id="c5db344e-f2b5-4a02-b986-254320207b26" />
+  <Project Path="ShortestGraphCycle/ShortestGraphCycle.csproj" Id="185bf2fe-6519-4d9e-8880-4a7bc5556489" />
+  <Project Path="ZigZagReorder/ZigZagReorder.csproj" Id="76eb9404-4e1b-4e57-bbcb-2dfa582de44c" />
 </Solution>
