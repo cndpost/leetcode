@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ComputeListCycleLength/ComputeListCycleLength.csproj" Id="cd28e383-068e-4909-961a-16b71a00b900" />
+  <Project Path="DedectLinkedListCycle/DedectLinkedListCycle.csproj" />
+  <Project Path="LocateLinkedListMiddle/LocateLinkedListMiddle.csproj" />
+</Solution>
