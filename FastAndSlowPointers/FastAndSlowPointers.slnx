@@ -1,5 +1,7 @@
 <Solution>
+  <Project Path="CheckNumberHappyness/CheckNumberHappyness.csproj" Id="e99dc20f-b0c8-4880-8ac9-4c47459dc94b" />
   <Project Path="ComputeListCycleLength/ComputeListCycleLength.csproj" Id="cd28e383-068e-4909-961a-16b71a00b900" />
   <Project Path="DedectLinkedListCycle/DedectLinkedListCycle.csproj" />
+  <Project Path="FindLinkedListCycleEntry/FindLinkedListCycleEntry.csproj" Id="42ab68b7-68a8-4e09-bd6d-fa6b9738dcea" />
   <Project Path="LocateLinkedListMiddle/LocateLinkedListMiddle.csproj" />
 </Solution>
