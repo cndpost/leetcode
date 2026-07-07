@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="AnagramGrouping/AnagramGrouping.csproj" />
+  <Project Path="AnagramValidator/AnagramValidator.csproj" />
+  <Project Path="ConsoleApp1/SubstringsMadeFromWordList.csproj" />
+  <Project Path="CountSubArraysSumToGivenTarget/CountSubArraysSumToGivenTarget.csproj" />
+  <Project Path="DuplicatorDetector/DuplicatorDetector.csproj" />
+  <Project Path="FirstNoneRepeatingChar/FirstNoneRepeatingChar.csproj" />
+  <Project Path="KMostFrequent/KMostFrequent.csproj" />
+  <Project Path="MaxConsecutiveSequence/MaxConsecutiveSequence.csproj" />
+  <Project Path="MultisetIntersection/MultisetIntersection.csproj" />
+  <Project Path="TwoSum/TwoSum.csproj" />
+</Solution>
