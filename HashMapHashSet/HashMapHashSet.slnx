@@ -8,5 +8,7 @@
   <Project Path="KMostFrequent/KMostFrequent.csproj" />
   <Project Path="MaxConsecutiveSequence/MaxConsecutiveSequence.csproj" />
   <Project Path="MultisetIntersection/MultisetIntersection.csproj" />
+  <Project Path="SubstringMadeFromWordList2/SubstringMadeFromWordList2.csproj" Id="c39e1fa0-5cc1-4179-a484-91e6c9db642e" />
+  <Project Path="SubstringsMadeFromWordList3/SubstringsMadeFromWordList3.csproj" Id="37c8f8c6-37bc-4336-81d2-11582bcb2768" />
   <Project Path="TwoSum/TwoSum.csproj" />
 </Solution>
