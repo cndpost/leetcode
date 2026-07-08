@@ -11,6 +11,8 @@
   <Project Path="MaxConsecutiveSequence/MaxConsecutiveSequence.csproj" />
   <Project Path="MultisetIntersection/MultisetIntersection.csproj" />
   <Project Path="O1KeyCounter/O1KeyCounter.csproj" Id="24e334f5-07d3-4568-a97f-58fe97fbebdd" />
+  <Project Path="O1KeyCounter2/O1KeyCounter2.csproj" Id="23285180-1114-4fdd-b784-16a3885f144d" />
+  <Project Path="O1KeyCounter3/O1KeyCounter3.csproj" Id="e79788e8-b88f-4ea9-8cb8-0e0918b9afa3" />
   <Project Path="SubstringMadeFromWordList2/SubstringMadeFromWordList2.csproj" Id="c39e1fa0-5cc1-4179-a484-91e6c9db642e" />
   <Project Path="SubstringsMadeFromWordList3/SubstringsMadeFromWordList3.csproj" Id="37c8f8c6-37bc-4336-81d2-11582bcb2768" />
   <Project Path="TwoSum/TwoSum.csproj" />
