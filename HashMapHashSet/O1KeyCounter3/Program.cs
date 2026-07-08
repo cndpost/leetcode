@@ -8,6 +8,9 @@ using System.Collections.Generic;
 //max=Math.Max(max, count[key]) works for inc(key)
 //but min = Math.Min(min, count[key]) does not work for dec(key) when this key is deleted due to 0,
 
+
+//tricks: need one hashset, two dictionary, and a linked list of bucket to represent this structure.
+
 class Program
 {
     static void Main(string[] args)
