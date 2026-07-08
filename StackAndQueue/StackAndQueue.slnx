@@ -1,0 +1,17 @@
+<Solution>
+  <Project Path="AsteroidSimulator/AsteroidSimulator.csproj" />
+  <Project Path="BalancedBrancketCheck/BalancedBrancketCheck.csproj" />
+  <Project Path="CanonicalUnixPathSimplifier/CanonicalUnixPathSimplifier.csproj" />
+  <Project Path="CourseOrderPlanner/CourseOrderPlanner.csproj" />
+  <Project Path="DaysTillWarmer/DaysTillWarmer.csproj" />
+  <Project Path="EvaluateReversePolishExpression/EvaluateReversePolishExpression.csproj" />
+  <Project Path="ImplementQusingStack/ImplementQusingStack.csproj" />
+  <Project Path="ImplementStackusingQueue/ImplementStackusingQueue.csproj" />
+  <Project Path="LargestAreaInBinaryMatrix/LargestAreaInBinaryMatrix.csproj" />
+  <Project Path="LargestHistogramRectangle/LargestHistogramRectangle.csproj" />
+  <Project Path="NestedRepeatStringDecoder/NestedRepeatStringDecoder.csproj" />
+  <Project Path="NextLarger/NextLarger.csproj" />
+  <Project Path="O1MinTracker/O1MinTracker.csproj" />
+  <Project Path="SlidingWindowMaxFinder/SlidingWindowMaxFinder.csproj" />
+  <Project Path="SlidingWindowsMax2/SlidingWindowsMax2.csproj" />
+</Solution>
