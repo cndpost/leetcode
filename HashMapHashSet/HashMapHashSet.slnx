@@ -6,8 +6,11 @@
   <Project Path="DuplicatorDetector/DuplicatorDetector.csproj" />
   <Project Path="FirstNoneRepeatingChar/FirstNoneRepeatingChar.csproj" />
   <Project Path="KMostFrequent/KMostFrequent.csproj" />
+  <Project Path="LFUCache/LFUCache.csproj" Id="f7b1a959-674d-4431-bdd8-841dd1d4c68d" />
+  <Project Path="LRUCach/LRUCach.csproj" Id="0422fcbe-10aa-4f87-ad27-90660f22912a" />
   <Project Path="MaxConsecutiveSequence/MaxConsecutiveSequence.csproj" />
   <Project Path="MultisetIntersection/MultisetIntersection.csproj" />
+  <Project Path="O1KeyCounter/O1KeyCounter.csproj" Id="24e334f5-07d3-4568-a97f-58fe97fbebdd" />
   <Project Path="SubstringMadeFromWordList2/SubstringMadeFromWordList2.csproj" Id="c39e1fa0-5cc1-4179-a484-91e6c9db642e" />
   <Project Path="SubstringsMadeFromWordList3/SubstringsMadeFromWordList3.csproj" Id="37c8f8c6-37bc-4336-81d2-11582bcb2768" />
   <Project Path="TwoSum/TwoSum.csproj" />
