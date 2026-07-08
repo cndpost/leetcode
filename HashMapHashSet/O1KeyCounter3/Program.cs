@@ -1,6 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//Can we just maintain min = Math.Min(min, count[key]) when doing dec(key) and max=Math.Max(max, count[key]) when doing inc(key) calls ?
+//Short answer: No — you cannot maintain min and max counts in O(1) using only min = Math.Min(min, count[key]) and max = Math.Max(max, count[key]).
+//This breaks the data structure because min and max become invalid the moment a key is decremented or removed.
+
+//max=Math.Max(max, count[key]) works for inc(key)
+//but min = Math.Min(min, count[key]) does not work for dec(key) when this key is deleted due to 0,
+
 class Program
 {
     static void Main(string[] args)
@@ -39,7 +46,7 @@ public class AllOne
 {
     private class Bucket
     {
-        public int Count;
+        public int Count;   //each bucket keep its Count never change once bucket is created
         public HashSet<string> Keys = new HashSet<string>();
         public Bucket Prev;
         public Bucket Next;
@@ -84,7 +91,7 @@ public class AllOne
         countMap[newCount].Keys.Add(key);
         keyMap[key] = countMap[newCount];
 
-        if (bucket.Keys.Count == 0)
+        if (bucket.Keys.Count == 0)  //because key has been removed from bucket, its count may go down to 0
             RemoveBucket(bucket);
     }
 
@@ -124,17 +131,17 @@ public class AllOne
     // -------------------------
     public string GetMaxKey()
     {
-        return tail == null ? "" : FirstKey(tail.Keys);
+        return tail == null ? "" : FirstKey(tail.Keys);//tail is a signle bucket, but its Keys is a set
     }
 
     public string GetMinKey()
     {
-        return head == null ? "" : FirstKey(head.Keys);
+        return head == null ? "" : FirstKey(head.Keys);//head is a single bucket, but its Keys is a set
     }
 
     private string FirstKey(HashSet<string> set)
     {
-        foreach (var k in set) return k;
+        foreach (var k in set) return k;//this one does not loop all, just return the first key.
         return "";
     }
 
