@@ -1,5 +1,9 @@
 ﻿using System;
 
+
+//trick: reuse the largest histogram algorithm for area of all '1's
+// then scan row by row to maintain the largest ones of record
+
 class Program
 {
     static void Main(string[] args)
@@ -52,6 +56,8 @@ class Program
         return maxArea;
     }
 
+
+    //following is similar to largest histogram of area with all '1's
     public static int LargestRectangleArea(int[] heights)
     {
         int n = heights.Length;
