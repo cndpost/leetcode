@@ -1,5 +1,9 @@
 ﻿using System;
 
+// the trick is find the cut index in the smaller array A. Using binary search to try it.
+// once found, then it is deterministric to find cut index in array B. And the median is 
+// the odd element in the middle, or an avergae of the two median elements. 
+
 class Program
 {
     static void Main(string[] args)
