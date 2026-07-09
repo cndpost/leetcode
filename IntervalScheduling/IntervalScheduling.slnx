@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CombineOverlappingIntervals/CombineOverlappingIntervals.csproj" />
+  <Project Path="ConsoleApp1/CarpoolCapacity.csproj" />
+  <Project Path="RequiredConferenceRoom/RequiredConferenceRoom.csproj" />
+</Solution>
