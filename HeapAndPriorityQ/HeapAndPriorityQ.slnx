@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="CloesetKPointSelection/CloesetKPointSelection.csproj" />
+  <Project Path="GetKSmallest/GetKSmallest.csproj" />
+  <Project Path="KthHighestValueRetrieval/KthHighestValueRetrieval.csproj" />
+  <Project Path="ProjectCapitalMaximization/ProjectCapitalMaximization.csproj" />
+  <Project Path="RunningMedianTracker/RunningMedianTracker.csproj" />
+  <Project Path="SkylineOutline/SkylineOutline.csproj" />
+  <Project Path="TwoDRainTrapper/TwoDRainTrapper.csproj" />
+</Solution>

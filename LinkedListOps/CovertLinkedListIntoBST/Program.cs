@@ -1,7 +1,9 @@
 ﻿using System;
 // BST traversal: in order is: left, root, right. Use: BST sorted output
 // preorder is: root, left, right. Use: Tree serialization
-// post order is: left, right, root: Use: Expression evaluation
+// the trick is to recursive call of BuildBST: left call, assign root, right call
+// maintain a global current as root.  current has values for left child root, current node
+// root, right child root. in this order.
 
 class Program
 {

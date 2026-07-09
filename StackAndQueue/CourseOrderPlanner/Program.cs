@@ -1,6 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
+// amazon SDE may ask this. 
+//the trick is to scan pair into required preq, if preq reaches 0, it can add to courses.
+// and do a BFT. Put courses with K preqs into K-th later of the graph.
+//
+//
 class Program
 {
     static void Main(string[] args)
