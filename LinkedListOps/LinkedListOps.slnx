@@ -1,0 +1,14 @@
+<Solution>
+  <Project Path="ConsoleApp1/DeletetheKthNodeFromEnd.csproj" Id="07e289a2-81e3-48a9-9438-57b4a2d0458c" />
+  <Project Path="CovertLinkedListIntoBST/CovertLinkedListIntoBST.csproj" Id="322f8a46-21ee-4182-ba01-c371540b5eeb" />
+  <Project Path="DeleteInternalListNode/DeleteInternalListNode.csproj" Id="f621b3b9-3549-4e7b-89ab-855cfba64834" />
+  <Project Path="FlatterMultiLevelDoubleLinkedList/FlatterMultiLevelDoubleLinkedList.csproj" Id="985c10eb-4fbb-4567-bfa5-1ff7e475bbe2" />
+  <Project Path="InvertLinkedList/InvertLinkedList.csproj" />
+  <Project Path="MergeSortedLinkedList/MergeSortedLinkedList.csproj" Id="04905afa-a15e-4d6a-96f6-9d63c43a4eaa" />
+  <Project Path="ReGroupOddEvenNodesOfLinkedList/ReGroupOddEvenNodesOfLinkedList.csproj" Id="0102a7a0-8db2-4c08-bd8f-b7e3cc7e717d" />
+  <Project Path="SortLinkedlistInPlace/SortLinkedlistInPlace.csproj" Id="db53134b-23c7-4703-909a-bf33c0b2662f" />
+  <Project Path="StablePartitionOfLinkedList/StablePartitionOfLinkedList.csproj" Id="c39648d2-b4d9-4e3a-9f9c-3e1c07922942" />
+  <Project Path="StablePartitionOfLinkedlist2/StablePartitionOfLinkedlist2.csproj" Id="cc679bea-6bb6-4adb-af0c-91ead523d5d7" />
+  <Project Path="SumTwoReverseOrderedDigitsInLinkedLists/SumTwoReverseOrderedDigitsInLinkedLists.csproj" Id="5bdd3ee5-1070-4bd5-b046-6deaa105357c" />
+  <Project Path="SwapAdjacentNodes/SwapAdjacentNodes.csproj" Id="36b57c68-8c6a-4824-91d7-7ccc0df65494" />
+</Solution>
