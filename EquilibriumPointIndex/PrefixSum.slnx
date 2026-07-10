@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ConsoleApp1/EquilibriumPointIndex.csproj" />
+  <Project Path="MaxContiguousSegmentSum/MaxContiguousSegmentSum.csproj" />
+  <Project Path="MaxContiguousSegmentSum2/MaxContiguousSegmentSum2.csproj" />
+  <Project Path="MaxMinProductSubarray/MaxMinProductSubarray.csproj" />
+  <Project Path="TotalWizardStrength/TotalWizardStrength.csproj" />
+</Solution>
