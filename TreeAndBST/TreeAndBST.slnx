@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BSTLowestCommonAncestor/BSTLowestCommonAncestor.csproj" />
+  <Project Path="TreeSerializerDeserializer/TreeSerializerDeserializer.csproj" />
+</Solution>
