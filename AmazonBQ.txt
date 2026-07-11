@@ -1,0 +1,58 @@
+Amazon Leadership Interview Questions and Answers:
+
+Tell me about a time you took ownership of a critical production issue.
+
+Yes. At Cardiac Insight Inc, when I first joined, they have no software source code version control system, and build is done on CTO’s laptop, encryption and signing is also done on his laptop.  The testing is also done by the CTO on his desk PC.  A few weeks after I joined, I established an in office test lab first, so test can be done on clean machine which may expose some dependencies tie to CTO’s own installation, then I checked out all his src code to github to maintain the change history using version control, I also established a set of redundant production build servers, one in office local network and another in AWS as EC2 instance that is remotely accessible.
+
+Describe a time you disagreed with your manager or architect.
+
+Yes, when submitting my TPM simulator to TCG, working group chair does not like to have Windows specific build projects and solutions to be checked into TCG’s repo, and they want it to be OS neutral and device class neutral. But my fellow workers and other TCG members do get instantly usable build environment and quickly able to have a product up and running if they used my supplied VS projects and solutions. So the solution is to not check a VS and Windows specific part, and only maintain a OS and platform neutral cmake part, and have my VS solution and projects stayed in my own branch that never submitted to TCG. But for people who are interested, they can download from my branch instead of the official branch
+
+Tell me about a time you made a difficult technical decision.
+
+Yes. TCG has a TPM test suite that has started from Microsoft earlier version but evolved to dotNetCore 8.0 and above, but Microsoft version internally stayed at dotnet framework 4.8 and the Windows OS build environment only has support for the older framework 4.8. I have two maintain my test cases to support both framework versions which are not compatible to each other. I have to use a framework neutral libraries and simple features to implement my test cases. These way I can have my test cases to be shared in both environment without maintaining two different sets of test case implementations.
+
+  
+  
+Describe a time you delivered under a tight deadline.
+
+Yes. My contract at Microsoft will expire at their fiscal calendar year at 6/30/20206. And I started
+just at 2/22/2026. I have to deliver a PQC capability to the Microsoft HLK module in Windows.
+I ramp up myself on TPM and TCG spec and current state of the existing product, and quickly picked up the product and requirements. With help of AI I quickly developed the new test cases and augmented the HLK to have the PQC capabilities under a very tight schedule.
+
+Tell me about a time you improved an inefficient process.
+
+Yes. At Cardiac Insight Inc. When we make algorithm changes, or code changes, the build need to check out src from github, the run it at a build server, then need to run a DotNet binary encryption process to prevent reverse engineering, then I need to use corporate key to sign the EXE, then I need to run a MSI packaging project build process to pack it as MSI, then I need to use corporate key to sign the MSI again.
+
+All these are taking human time.
+
+Later on, I created a Action Script at gihub to automate this process. Whenever someone did a change check in, if someone intentionally also make a tag on that commit, it will trigger above automated build and packaging process and automatically run all the check out into a agent host, doing local builds, doing local encryption, doing local signing, doing local packaging build, and doing local signing again, then upload the artifacts into server for future downloading and smoke test. An one to two hour manual process becomes a 5 minute automated process.
+
+Tell me about a time you mentored another engineer.
+
+When Cardiac Insight Inc hire a junior product engineer, I walked him the product build process I have established. Give him one internal build server to practice while I am controlling another production build server at AWS remotely for backup. 
+
+Describe a situation where you had to earn trust.
+
+When I represent Microsoft at TCG. Current just junior FTEs go through their changes and PR through a principal engineer. But the principal engineer himself does not show up in weekly TCG meeting regularly and does not respond to PR in timely manner. I have to standup to take a full functional TCG member role and earn the trust to be a qualified voter on behalf of Microsoft. I submitted two important PR first internally at Microsoft, and asked the principal engineer to approve, and also asked if I can submit similar PR to TCG by myself. He reviewed my PR and think I can do direct submit myself. So I earned internal trust first. Later on I eared TCG working group chairman’s trust to propose test plans and simulator implementation plans. Now I got invite from TCG to work on their mission even my work contract at Microsoft expired.
+
+
+
+
+Tell me about a time you made a mistake.
+
+I think my biggest mistake was I did not working hard to take over the CTO role myself when my boss, the old CTO decides to retire.  I thought I do not need to be his redundant and become an alternate backup of all his duties and I can just fill all the holes of his tasks and be a complimentary role to his role. But when he decides to retire, company have to hire another architect and train him to be an engineering VP to take over the CTO duties. And his new Indian VP soon hired more Indian engineers and talked to the parent company owners and fired many other senior executives and director level roles. The company now did saved development cost and soon will achieve to a break even point. But not sure if the quality of the product will stay or the morale of the company will be healthy again.
+
+
+
+Tell me about a time you had to learn something quickly.
+
+Yes. Same as above Microsoft project to pick up the TPM spec from TCG. I have to ramp up myself and make new contributions to the new features in the new versions of the spec.
+
+Describe a project you're most proud of.
+
+At Stryker. When they are trying to automate the Behavior Model test process. I invented the test harness to make many steps that required human hand work to be automated. Such as plug and unplug a signal cable, plug and unplug a power power cord. I build a software based tool and use it to drive a off the shelf bought hardware wire relay controller. And have the power cable, the signal cable, all go through a connection / disconnection relay controller. Essentially made the human intensive cable connection and disconnection action to be software controllable and automated function calls.
+
+I packaged the harness in a server cabinet and made it safe to use at home and office. And I transfer the test harness to Stryker when I left and only asked to reimburse the parts expense for purchasing the parts and the cabinet.
+
+
