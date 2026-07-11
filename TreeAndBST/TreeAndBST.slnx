@@ -1,4 +1,17 @@
 <Solution>
   <Project Path="BSTLowestCommonAncestor/BSTLowestCommonAncestor.csproj" />
+  <Project Path="BSTSerializerDeserializer/BSTSerializerDeserializer.csproj" Id="806ee790-d5be-4b1c-83c6-e7722e5c3cad" />
+  <Project Path="BuildTreeFromPreOrderInorderLists/BuildTreeFromPreOrderInorderLists.csproj" Id="1903087c-f80c-477f-8e8b-d36101482172" />
+  <Project Path="ComputeMaxPathSum/ComputeMaxPathSum.csproj" Id="434a9b21-6b3e-416c-996a-77fcc74e139c" />
+  <Project Path="ComputeTreeDiameter/ComputeTreeDiameter.csproj" Id="32b48274-80e3-4f68-a4b3-c09ff2dc23cf" />
+  <Project Path="ComputeTreeHeight/ComputeTreeHeight.csproj" Id="269835b8-7421-4fda-9ed2-f2effb6e89ad" />
+  <Project Path="ExtractTreeLevels/ExtractTreeLevels.csproj" Id="c0b086fa-946b-47f4-9c5c-a259095acea2" />
+  <Project Path="FlipTreeStructure/FlipTreeStructure.csproj" Id="acaea2d1-6d36-4818-a57b-8e6ed925de15" />
+  <Project Path="KthSmallesNodeInBST/KthSmallesNodeInBST.csproj" Id="5ac7b0a3-47ec-4d46-bbfa-1610c443484f" />
+  <Project Path="KthSmallestNodeInTree/KthSmallestNodeInTree.csproj" Id="f6c5fcf0-8516-4b8a-bed2-dc431d6b421d" />
+  <Project Path="RightSideViewOfTree/RightSideViewOfTree.csproj" Id="9a833aaf-b932-42dd-a2fd-56413aea92f4" />
+  <Project Path="RootToLeafPathSum/RootToLeafPathSum.csproj" Id="805d5f44-58a1-4854-bfc0-7b06d31c7361" />
   <Project Path="TreeSerializerDeserializer/TreeSerializerDeserializer.csproj" />
+  <Project Path="ValidateBST/ValidateBST.csproj" Id="8ecb286b-fdfa-4057-a60c-bcc5a2092580" />
+  <Project Path="VerifyTreeEquality/VerifyTreeEquality.csproj" Id="d16c56b2-db07-46c2-89e1-2fe2a574c80d" />
 </Solution>
